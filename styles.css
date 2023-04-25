@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 1340px;
+  }
+
+  /* ===============================START MAIN AREA======================================= */
+  /* ===============================START NAVBAR AREA===================================== */
+  #bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+
+  .bar-ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .bar-li{
+    list-style: none;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(243, 87%, 12%);
+  }
+  /* ===============================END NAVBAR AREA======================================= */
+  /* ===============================START FIRST SECTION AREA============================== */
+  #first{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+    padding: 3rem;
+    gap: 2rem;
+  }
+
+  .first-img{
+    width: 40%;
+  }
+
+  .first-div{
+    padding: 3rem;
+  }
+
+  .first-h1{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size:2.5rem;
+    line-height: 2.5rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .first-para{
+    margin-top: 2rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .first-div2{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .email-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #mail{
+    padding: 0.5rem;
+    width: 300px;
+    color: hsl(243, 87%, 12%);
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: 1px solid hsl(240, 75%, 98%);
+    outline: none ;
+  }
+
+  .mail-span{
+    margin-top: 0.5rem;
+    color: hsl(0, 100%, 50%);
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    display: none;
+  }
+
+  #btn{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(240, 75%, 98%);
+    padding: 0.5rem 1rem;
+    height:3rem;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  /* ===============================END FIRST SECTION AREA================================ */
+  /* ===============================START SECOND SECTION AREA============================= */
+  #second{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+    padding: 3rem;
+    padding-bottom: 8rem;
+    gap: 2rem;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .second-img{
+    width: 40%;
+  }
+
+  .second-div{
+    padding: 2.3rem;
+  }
+
+  .second-h1{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size:2.2rem;
+    line-height: 2.5rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .second-para{
+    margin-top: 2rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .second-a{
+    margin-top: 2rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.2rem;
+    color:hsl(170, 45%, 43%);
+    cursor: pointer;
+  }
+
+  .second-div2{
+    padding: 2rem;
+    background-color: white;
+    margin-top: 4rem;
+    border-radius: 5px;
+    border: 0.5px solid hsl(240, 75%, 98%);
+    box-shadow: 5px 5px 5px 5px  hsl(0, 0%, 75%);
+    width: 450px;
+  }
+
+  .div-para{
+    margin-top: 1rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 2rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .person{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .person-img{
+    border-radius: 100%;
+    height: 50px;
+  }
+
+  .detail{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .person-span{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size:1rem;
+    color: hsl(243, 87%, 12%);
+  }
+
+  .detail-span{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: hsl(243, 87%, 12%)
+  }
+  /* ===============================END SECOND SECTION AREA============================== */
+  /* ===============================START THIRD SECTION AREA============================= */
+  #third{
+    padding: 6rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(238, 22%, 44%);
+  }
+
+  .third-h2{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size:2rem;
+    line-height: 2.5rem;
+    color:  hsl(240, 75%, 98%);
+  }
+
+  .third-para{
+    margin-top: 1rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 2rem;
+    color: hsl(0, 0%, 75%);
+    width:550px;
+  }
+
+  .third-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #mail1{
+    padding: 0.5rem;
+    width: 300px;
+    color: hsl(243, 87%, 12%);
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    border: 1px solid hsl(240, 75%, 98%);
+    outline:  none;
+  }
+
+  .mail1-span{
+    color:  hsl(0, 0%, 75%);
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    display: none;
+  }
+
+  #btn1{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(240, 75%, 98%);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    height:3rem;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  /* ===============================END THIRD SECTION AREA=============================== */
+  /* ===============================START FOOTER SECTION AREA============================ */
+  #footer{
+    background-color: hsl(243, 87%, 12%);
+    padding: 3rem;
+  }
+
+  .footer-logo{
+    filter: brightness(50%) contrast(50%) invert(100%) saturate(0%) sepia(100%);
+  }
+
+  .footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: hsl(240, 75%, 98%);
+    margin-top: 3rem;
+  }
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-div{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+
+  .about-span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Open Sans";
+    cursor: pointer;
+  }
+
+  .about-span:hover{
+    color: hsl(224, 93%, 58%);
+  }
+
+  .social{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+  }
+
+  .social-li{
+    list-style: none;
+    padding: 0.7rem;
+    border-radius: 100%;
+    border: 0.1rem solid hsl(240, 75%, 98%);
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+
+  .social-li:hover{
+    color: hsl(224, 93%, 58%);
+    border-color: hsl(224, 93%, 58%);
+  }
+  /* ===============================END FOOTER SECTION AREA=============================== */
+  /* ===============================END MAIN AREA======================================= */
+  /* =============================START FOOTER  AREA=========================== */
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 20px;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(240, 10%, 16%);
+  }
+  
+  .foot a {
+    text-decoration: none;
+    color: hsl(39, 100%, 56%);
+  }
+  
+  .foot a:hover {
+    color: hsl(300, 69%, 71%);
+  }
+  /* =============================END FOOTER  AREA=========================== */
+  /* ============================START MEDIA QUERY=========================== */
+  @media screen and (max-width:375px) {
+    body{
+      min-width: 375px;
+    }
+
+    #bar{
+      padding: 3rem 2rem;
+      justify-content: space-between;
+    }
+
+    .logo{
+      width: 20%;
+    }
+
+    .bar-ul{
+      gap:1rem;
+    }
+
+    .bar-li{
+      font-size: 1rem;
+    }
+
+    #first{
+      flex-direction: column;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .first-div{
+      padding: 3rem 1rem;
+    }
+
+    .first-h1{
+      font-size: 1.5rem;
+    }
+
+    .first-div2{
+      flex-direction: column;
+    }
+
+    .first-img, .second-img{
+      width: 100%;
+    }
+
+    #second{
+      flex-direction: column;
+      padding: 3rem 1rem;
+      background-image: url(./images/bg-curve-mobile.svg);
+    }
+
+    .second-div{
+      padding: 1rem;
+    }
+
+    .second-h1{
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    .second-a{
+      display: inline-block;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .second-div2{
+      padding: 1rem;
+      width: 330px;
+    }
+
+    .div-para{
+      font-size: 1rem;
+    }
+
+    #third{
+      padding: 6rem 1rem;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .third-h2{
+      font-size: 1.5rem;
+    }
+
+    .third-para{
+      width: 95%;
+      font-size: 1rem;
+    }
+
+    .mail1-span, .mail-span{
+      text-align: start;
+    }
+
+    .third-div2{
+      margin-top: 2rem;
+    }
+
+    #footer{
+      padding: 3rem 2rem;
+    }
+
+    .footer-div{
+      flex-direction: column;
+    }
+
+    .about{
+      grid-template-columns: 1fr;
+      margin-top: 2rem;
+      gap: 1rem;
+    }
+
+    .social{
+      gap: 1rem;
+      margin-top: 2rem;
+      justify-content: center;
+    }
+
+  }
+  /* ============================END MEDIA QUERY=========================== */

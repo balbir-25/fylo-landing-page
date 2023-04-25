@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/2b9cdc1c9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <!-- ================================START MAIN AREA======================== -->
+    <main id="site">
+      <!-- =============================START NAVBAR AREA========================= -->
+      <nav id="bar">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
+        <ul class="bar-ul">
+          <li class="bar-li">Features</li>
+          <li class="bar-li">Team</li>
+          <li class="bar-li">Sign In</li>
+        </ul>
+      </nav>
+      <!-- =============================END NAVBAR AREA========================= -->
+      <!-- ============================START FIRST SECTION AREA======================= -->
+      <section id="first">
+        <img
+          src="./images/illustration-1.svg"
+          alt="illustration-1"
+          class="first-img"
+        />
+        <div class="first-div">
+          <h1 class="first-h1">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <p class="first-para">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </p>
+          <div class="first-div2">
+            <div class="email-div">
+              <input
+                type="email"
+                name="email"
+                id="mail"
+                placeholder="Enter your email..."
+              />
+              <span class="mail-span">Please check your email</span>
+            </div>
+            <button id="btn">Get Started</button>
+          </div>
+        </div>
+      </section>
+      <!-- ============================END FIRST SECTION AREA======================= -->
+      <!-- ============================START SECOND SECTION AREA======================= -->
+      <section id="second">
+        <img
+          src="./images/illustration-2.svg"
+          alt="illustration-2"
+          class="second-img"
+        />
+        <div class="second-div">
+          <h1 class="second-h1">Stay productive, wherever you are</h1>
+          <p class="second-para">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="second-para">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <a href="#" class="second-a">See how Fylo works
+            <img src="./images/icon-arrow.svg" alt="arrow" class="arrow">
+          </a>
+          <div class="second-div2">
+            <img src="./images/icon-quotes.svg" alt="icon-quotes" class="div-img" />
+            <p class="div-para">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="person">
+              <img
+                src="./images/avatar-testimonial.jpg"
+                alt="avatar-testimonial"
+                class="person-img"
+              />
+              <div class="detail">
+                <span class="person-span">Kyle Burton</span>
+                <span class="detail-span">Founder & CEO, Huddle</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ============================END SECOND SECTION AREA======================= -->
+      <!-- ============================START THIRD SECTION AREA======================= -->
+      <section id="third">
+        <div class="third-div">
+          <h2 class="third-h2">Get early access today</h2>
+          <p class="third-para">
+            It only takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any questions, our support team
+            would be happy to help you.
+          </p>
+        </div>
+        <div class="third-div2">
+            <input
+                type="email"
+                name="email"
+                id="mail1"
+                placeholder="email@example.com"
+              />
+              <span class="mail1-span">Please check your email</span>
+            <button id="btn1">Get Started For Free</button>  
+        </div>
+      </section>
+      <!-- ============================END THIRD SECTION AREA======================= -->
+      <!-- ============================START FOOTER SECTION AREA======================= -->
+      <section id="footer">
+        <img src="./images/logo.svg" alt="logo" class="footer-logo">
+        <div class="footer-div">
+            <div class="contact">
+              <div class="contact-div">
+                <i class="fa-solid fa-phone-volume fa-lg icon"></i>
+                <span class="contact-span">+1-543-123-4567</span>
+              </div>
+              <div class="contact-div">
+                <i class="fa-solid fa-envelope fa-lg icon"></i>
+                <span class="contact-span">example@fylo.com</span>
+              </div>
+            </div>
+            <div class="about">
+              <span class="about-span">About Us</span>
+              <span class="about-span">Jobs</span>
+              <span class="about-span">Press</span>
+              <span class="about-span">Blog</span>
+              <span class="about-span">Contact Us</span>
+              <span class="about-span">Terms</span>
+              <span class="about-span">Privacy</span>
+            </div>
+           <ul class="social">
+              <li class="social-li"><i class="fa-brands fa-facebook-f fa-lg icon"></i></li>
+              <li class="social-li"><i class="fa-brands fa-twitter fa-lg icon"></i></li>
+              <li class="social-li"><i class="fa-brands fa-instagram fa-lg icon"></i></li>
+            </ul>
+          </div>
+      </section>
+      <!-- ============================END FOOTER SECTION AREA======================= -->
+    </main>
+    <!-- ================================END MAIN AREA======================== -->
+    <!-- ================================START FOOTER AREA====================== -->
+    <footer class="foot">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="http://balbir-portfolio.liveblog365.com/" target="_blank"
+        >Balbir Singh</a
+      >.
+    </footer>
+    <!-- ================================END FOOTER AREA========================= -->
+    <script src="./script.js"></script>
+  </body>
+</html>
